@@ -7,3 +7,9 @@ h1{
 .debug{
     border: 2px solid black;
 }
+.text-color-white{
+    color: white;
+}
+/* [class^=col]{
+    padding:20px ;
+} */
