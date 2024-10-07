@@ -9,40 +9,43 @@
     <link rel="stylesheet" href="./app.css">
   </head>
   <body>
-    <h1 class="align-center">Bootstrap 5 Responsive Grid</h1>
-    <p class="caption">Layout a griglia con diversi breakpoint (sm, md, lg).</p>
-    <div class="container text-color-white">
+    <header class="my-3">
+      <h1 class="align-center">Bootstrap 5 Responsive Grid</h1>
+      <p class="caption">Layout a griglia con diversi breakpoint (sm, md, lg).</p>
+    </header>
+    
+    <div class="container text-white">
 
 
-        <div class="row py-3">
-            <div class="col-lg-4 col-md-6 col-sm-12 bg-body py-3 text-color-black">
+        <div class="row my-3">
+            <div class="col-12 col-md-6 col-lg-4 bg-body  text-black py-3">
               <h2>Colonna 1</h2>
               <p>Larghezza intera su dispositivi piccoli, meta' larghezza su dispositivi medi e un terzo su dispositivi grandi.</p>
             </div>
-            <div class="col-lg-8 col-md-6 col-sm-12  bg-secondary py-3">
+            <div class="col-sm-12 col-md-6 col-lg-8  bg-secondary py-3">
               <h2>Colonna 2</h2>
               <p>Larghezza intera su dispositivi piccoli, meta' larghezza su dispositivi medi e due terzi su dispositivi grandi</p>
             </div>
         </div>
 
 
-        <div class="row py-3">
-          <div class="col-lg-4 col-md-4 col-sm-6 bg-primary py-3">
+        <div class="row my-3">
+          <div class="col-6 col-md-4 bg-primary py-3">
             <h2>Colonna 1</h2>
             <p>Meta' larghezza su dispositivi piccoli e un terzo su dispositivi medi e piu grandi.</p>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-6 bg-success py-3">
+          <div class="col-6 col-md-4 bg-success py-3">
             <h2>Colonna 2</h2>
             <p>Meta' larghezza su dispositivi piccoli e un terzo su dispositivi medi e piu grandi.</p>
           </div>
-          <div class="col-lg-4 col-md-4 col-sm-12  bg-danger py-3">
+          <div class="col-12 col-md-4 bg-danger py-3">
             <h2>Colonna 3</h2>
             <p>Larghezza intera su dispositivi piccoli (col-12) e un terzo su dispositivi medi e piu grandi.</p>
           </div>
         </div>
 
 
-        <div class="row row-cols-sm-2 row-cols-lg-4 row-cols-md-4 py-3">
+        <div class="row row-cols-2 row-cols-md-4 my-3">
           <div class="col bg-info py-3">
             <h2>Colonna 1</h2>
             <p>Meta' larghezza su dispositivi piccoli e un quarto su dispositivi medi e piu grandi</p>
@@ -55,7 +58,7 @@
             <h2>Colonna 3</h2>
             <p>Meta larghezza su dispositivi piccoli e un quarto su dispositivi medi e piu grandi</p>
           </div>
-          <div class="col bg-body py-3 text-color-black">
+          <div class="col bg-body py-3 text-black">
             <h2>Colonna 4</h2>
             <p>Meta larghezza su dispositivi piccoli e un quarto su dispositivi medi e piu grandi</p>
           </div>
